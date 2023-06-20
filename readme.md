@@ -32,13 +32,14 @@
 
 🌟 **[Front](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project-front)** 
 
-- JAVA
-- Android Studio
+- Android Studio (Java)
 
 ## 🖥 개발 내용
 
 **Backend**는 **Django REST Framwork** 를 사용하여 **REST API**를 구현하였고,  
 **Frontend**는 **Android Studio**를 사용하여 **Android APP**을 구현했습니다.
+
+**Frontend**에서 **Backend**로의 통신은 **Retrofit2**를 이용하여 구현했습니다.
 
 **Backend 서버**의 경우 **AWS EC2**를 사용하고, DB와 Storage를 **RDS**와 **S3**로 분리해서 구현했습니다.  
 DB는 MySQL을 사용하도록 했고, *(NGINX로 배포 하였습니다-구현예정)*
