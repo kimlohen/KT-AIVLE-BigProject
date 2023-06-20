@@ -42,7 +42,7 @@
 **Frontend**에서 **Backend**로의 통신은 **Retrofit2**를 이용하여 구현했습니다.
 
 **Backend 서버**의 경우 **AWS EC2**를 사용하고, DB와 Storage를 **RDS**와 **S3**로 분리해서 구현했습니다.  
-DB는 MySQL을 사용하도록 했고, *(NGINX로 배포 하였습니다-구현예정)*
+DB는 MySQL을 사용하도록 했고, API 서버는 NGINX로 배포 하였습니다.
 
 **AWS Architecture**
 
