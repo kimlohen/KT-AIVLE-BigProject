@@ -103,6 +103,9 @@ Answer의 경우 수의사의 경우에만 답변을 달 수 있도록 구현하
 |---|---|---|---|
 |![architecture](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/44f10a37-b3cb-4b75-b071-91c8d7165565)|![erd](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/3daa9449-c11f-4549-a373-a68f94f4935f)|![ServiceFlow](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/0c3e4223-6e90-49c6-9ffd-a7f26dfbab0c)|![UI/UX](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/62fc0f89-6c0c-4285-867f-97055b0bc3c4)|
 
+### ✅ 기반 AI 데이터
+**[AI Hub 반려동물 피부 질환 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=561)
+
 
 ## 👀 서비스 화면
 
