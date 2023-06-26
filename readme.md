@@ -107,8 +107,9 @@ Answer의 경우 수의사의 경우에만 답변을 달 수 있도록 구현하
 무증상, 유증상 분류 후 유증상으로 분류된 데이터를 6가지의 Class로 분류하는 Flow를 가지고 있습니다.
 
 ✔️ **데이터**  
-**[[AI HUB] 반려동물 피부 질환 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=561)**를 사용했습니다.  
-AI HUB 데이터에서 무증상 데이터를 제공하지 않고 있어 **DALLE API**를 사용해 ***무증상 데이터를 생성***하여 학습을 진행했습니다.  
+**[AI HUB 반려동물 피부 질환 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=561)**를 사용했습니다.  
+~~AI HUB 데이터에서 무증상 데이터를 제공하지 않고 있어 **DALLE API**를 사용해 ***무증상 데이터를 생성***하여 학습을 진행했습니다.~~  
+=> 뒤늦게 반려동물 무증상 데이터가 AI HUB에 올라와서 해당 데이터로 학습을 진행하였습니다.
 
 ✔️ **모델**  
 모델은 pretrained InceptionV3를 사용했습니다.  ++ 이때까지 했던거 적어줍시다 (Unet, YOLO 등등)
