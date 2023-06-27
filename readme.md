@@ -78,7 +78,7 @@ Django REST Auth를 활용하여 기본적인 회원가입, 로그인, 로그아
 
 |비밀번호 초기화 메일|비밀번호 초기화 화면|
 |---|---|
-|![Untitled](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/c6e67da6-d927-4b26-9e00-9a8c99e43d9b)|![Untitled](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/f4f80d0f-9f9c-4dd7-8545-d488fe813617)|
+|![image](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/ea45c4c8-2a2a-4c51-bb27-4bf21f1f8c64)|![image](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/2899f85b-1dea-4f25-b664-033b187f4f4f)|
 
 
 ### ✅ Pet, Hospital API
