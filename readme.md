@@ -1,8 +1,10 @@
-# Aivle Schoool 3기 AI Track Team 11 BigProject
+Aivle Schoool 3기 AI Track Team 11 BigProject
+---
+# 🐶 강아지킴
+![Logoview](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/ef567dce-5d1a-4dd2-9b41-2ab90c23fea7)
 
 ## 😊 Members
 #### 곽채원, 김민수, 박예은, 류홍규, 박지환, 이윤열, 이태훈, 이혜주
-
 
 ## 📜 서비스 내용
 
@@ -70,10 +72,6 @@ Django REST Auth를 활용하여 기본적인 회원가입, 로그인, 로그아
 
 로그인할 때에는 `AccessToken` 과 `RefreshToken` 을 발급해 해당 토큰으로 사용자 정보를 확인할 수 있도록 구현했습니다.
 
-✔️ **Oauth**
-
-추가적으로 Oauth도 구현했습니다. Naver의 경우 등록된 테스트 ID에서는 구현이 되며, Google의 경우 보안상의 이유로 도메인을 구매하지 않으면 테스트가 어려워 로컬에서는 동작이 되도록 구현했습니다.
-
 ✔️ **기타 User 관련 API**
 
 회원가입 시 Email 중복 확인을 하는 API와, 비밀번호를 까먹었을 때 해당 아이디로 Email을 전송하여 비밀번호를 초기화할 수 있는 API를 구현했습니다. Front에서와 마찬가지로 비밀번호는 `SHA256` 암호화를 수행한 후 전달되도록 구현했습니다.
@@ -97,19 +95,19 @@ Pet과 Hospital 은 UserID와 외래키로 연결되어있어, 로그인한 정�
 
 우리의 핵심 기능인 사진을 찍어서 AI 진단을 받는 부분과 Q&A 게시판 부분을 담당하는 API 입니다.
 
-**Picture**
+**✔ Picture**
 
 Picture는 유저의 PetID를 외래키로 가지기 때문에 사진을 찍어서 올릴 때 자신의 Pet만을 선택하도록 구현했습니다. 사진을 올린 후에는 AI 모델의 결과가 DB에 저장되도록 했습니다.
 
 이후 해당 병명에 대한 설명을 ChatGPT API를 통해 받아와 DB에 저장하고 사용자에게 보여줍니다.
 
-**Question**
+**✔ Question**
 
 Question의 경우 마찬가지로 PictureID를 외래키로 가지기 때문에 해당 유저의 사진에만 접근하여 질문을 등록하도록 하였고, 조회는 누구나 가능하지만 쓰기, 수정, 삭제 기능은 유저 본인만 가능하도록 구현했습니다.
 
 또한, Question이 등록될 때 해당 질문 내용을 바탕으로 ChatGPT에게 답변을 받을 수 있도록 했습니다. ChatGPT의 경우 응답이 오는 시간이 대략 10초 이상 걸리기 때문에 쓰레드로 구현하여 질문이 등록되는 것에 지연이 발생하지 않도록 했습니다.
 
-**Answer**
+**✔ Answer**
 
 Answer의 경우 수의사의 경우에만 답변을 달 수 있도록 구현하였습니다.
 
