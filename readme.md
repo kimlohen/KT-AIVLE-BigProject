@@ -1,4 +1,3 @@
-![회원가입3](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/66f355ca-220d-4c99-9c5f-86414cf3844a)
 Aivle Schoool 3기 AI Track Team 11 BigProject
 ---
 # 🐶 강아지킴
@@ -133,21 +132,21 @@ Answer의 경우 수의사의 경우에만 답변을 달 수 있도록 구현하
 
 ## 👀 서비스 화면
 
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/adcdb817-0d3e-4320-a0cc-ba456a3c2c27](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/b065ebd2-5f48-4b87-bc32-b52d2c469f3d)https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/b065ebd2-5f48-4b87-bc32-b52d2c469f3d" width=25%>
-어플리케이션을 설치하면 위와 같은 아이콘이 나타납니다.
+![아이콘]https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/b065ebd2-5f48-4b87-bc32-b52d2c469f3d)
+- 어플리케이션을 설치하면 위와 같은 아이콘이 나타납니다.
 
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/6b8c76c4-b882-4aff-ab23-fadc0b01d678" width=25%>
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/4f898b67-f5e5-4d52-a779-c4fbfa588939" width=25%>
-아이콘을 눌러 실행하면 로딩화면을 거치고 로그인 화면에 도달합니다.
+![로딩 화면](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/6b8c76c4-b882-4aff-ab23-fadc0b01d678)
+![로그인 화면](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/4f898b67-f5e5-4d52-a779-c4fbfa588939)
+- 아이콘을 눌러 실행하면 로딩화면을 거치고 로그인 화면에 도달합니다.
 
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/d814bc39-bc13-4f43-b87f-26f2b40d9d64" width=25%>
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/f1569f70-0abd-4150-ab7b-9e5493dcac34" width=25%>
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/ead674fb-8369-41ae-b3b7-4036c2059ac4" width=25%>
-로그인 화면에서 회원가입 버튼을 누르면 위와 같은 화면에 도달합니다. 수의사 버튼을 누르면 병원 정보를 입력할 수 있는 화면이 나타나고, 약관 확인하기 문구를 클릭하면 약관을 확인 할 수 있는 화면이 나타납니다.
+![회원가입 화면](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/d814bc39-bc13-4f43-b87f-26f2b40d9d64)
+![수의사 화면](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/f1569f70-0abd-4150-ab7b-9e5493dcac34)
+![약관 화면](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/ead674fb-8369-41ae-b3b7-4036c2059ac4)
+- 로그인 화면에서 회원가입 버튼을 누르면 위와 같은 화면에 도달합니다. 수의사 버튼을 누르면 병원 정보를 입력할 수 있는 화면이 나타나고, 약관 확인하기 문구를 클릭하면 약관을 확인 할 수 있는 화면이 나타납니다.
 
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/35743f28-327e-4b44-aa0f-4e7355da6a67" width=25%>
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/8ff934ee-4455-4d6a-8361-800ec69bc830" width=25%>
-로그인 화면에서 비밀번호 초기화 문구를 클릭하면 이메일을 입력할 수 있는 화면이 나타나고 초기화 이메일 보내기 버튼을 누르면 위와 같은 메일을 받을 수 있습니다.
+![이메일 화면](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/35743f28-327e-4b44-aa0f-4e7355da6a67)
+![로딩 화면](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/8ff934ee-4455-4d6a-8361-800ec69bc830)
+- 로그인 화면에서 비밀번호 초기화 문구를 클릭하면 이메일을 입력할 수 있는 화면이 나타나고 초기화 이메일 보내기 버튼을 누르면 위와 같은 메일을 받을 수 있습니다.
 
 
 
