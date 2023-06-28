@@ -1,4 +1,3 @@
-Aivle Schoool 3기 AI Track Team 11 BigProject
 ---
 # 🐶 강아지킴
 ![Logoview](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/ef567dce-5d1a-4dd2-9b41-2ab90c23fea7)
@@ -132,29 +131,31 @@ Answer의 경우 수의사의 경우에만 답변을 달 수 있도록 구현하
 
 ## 👀 서비스 화면  
 
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/b065ebd2-5f48-4b87-bc32-b52d2c469f3d" width="200"/>
-
-- 어플리케이션을 설치하면 위와 같은 아이콘이 나타납니다.  
-
-
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/6b8c76c4-b882-4aff-ab23-fadc0b01d678" width="200"/>
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/4f898b67-f5e5-4d52-a779-c4fbfa588939" width="200"/>
-
-- 아이콘을 눌러 실행하면 로딩화면을 거치고 로그인 화면에 도달합니다.  
-
-
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/d814bc39-bc13-4f43-b87f-26f2b40d9d64" width="200"/>
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/f1569f70-0abd-4150-ab7b-9e5493dcac34" width="200"/>
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/ead674fb-8369-41ae-b3b7-4036c2059ac4" width="200"/>
-
-- 로그인 화면에서 회원가입 버튼을 누르면 위와 같은 화면에 도달합니다. 수의사 버튼을 누르면 병원 정보를 입력할 수 있는 화면이 나타나고, 약관 확인하기 문구를 클릭하면 약관을 확인 할 수 있는 화면이 나타납니다.  
-
-
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/35743f28-327e-4b44-aa0f-4e7355da6a67" width="200"/>
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/8ff934ee-4455-4d6a-8361-800ec69bc830" width="200"/>
-
-- 로그인 화면에서 비밀번호 초기화 문구를 클릭하면 이메일을 입력할 수 있는 화면이 나타나고 초기화 이메일 보내기 버튼을 누르면 위와 같은 메일을 받을 수 있습니다.
-
-
-
-
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/b065ebd2-5f48-4b87-bc32-b52d2c469f3d" width="200"/><br>
+어플리케이션을 설치하면 위와 같은 아이콘이 나타납니다.<br><br>
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/6b8c76c4-b882-4aff-ab23-fadc0b01d678" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/4f898b67-f5e5-4d52-a779-c4fbfa588939" width="200"/><br>
+아이콘을 눌러 실행하면 로딩화면을 거치고 로그인 화면으로 이동합니다.<br><br>
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/d814bc39-bc13-4f43-b87f-26f2b40d9d64" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/f1569f70-0abd-4150-ab7b-9e5493dcac34" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/ead674fb-8369-41ae-b3b7-4036c2059ac4" width="200"/><br>
+로그인 화면에서 회원가입 버튼을 누르면 위와 같은 화면으로 이동합니다. <br>
+수의사 버튼을 누르면 병원 정보를 입력할 수 있는 화면이 나타나고, <br>
+약관 확인하기 문구를 클릭하면 약관을 확인 할 수 있는 화면으로 이동니다.<br><br>
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/35743f28-327e-4b44-aa0f-4e7355da6a67" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/8ff934ee-4455-4d6a-8361-800ec69bc830" width="400"/><br>
+로그인 화면에서 비밀번호 초기화 문구를 클릭하면 이메일을 입력할 수 있는 화면이 나타나고 <br>
+초기화 이메일 보내기 버튼을 누르면 위와 같은 메일을 받을 수 있습니다.br><br>
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/61d247f6-5456-4c30-ac48-d34a4644842a" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/05145bd6-1767-452a-b7ea-544ebd3f2dc9" width="200"/><br>
+로그인이나 회원가입이 성공하면 메인화면으로 이동합니다.<br>
+답변을 많이 한 병원들 중 하나가 하단에 노출됩니다.<br>
+전화상담 버튼을 누르면 휴대전화의 전화화면으로 이동하고 병원 번호로 다이얼을 걸어둡니다.<br><br>
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/b9008a30-88c2-474c-8f0c-fe98504df4df" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/0f1a844c-edd4-4fd0-b1c8-0383a8a6989e" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/cf246ac2-ba5a-4a15-9428-83a6e36aeccc" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/114f62fd-75aa-431d-83b1-33ceda13203c" width="200"/><br>
+메인화면에서 피부질환 진단하기 버튼을 누르면 해당하는 동물을 선택하고 <br>
+사진을 촬영하거나 갤러리에서 선택하여 이미지를 업로드하는 화면으로 이동합니다.<br>
+첫번째 사진은 선택 전 화면, 두번째 사진은 사진촬영 버튼으로 넘어간 화면, <br>
+세번째 사진은 사진선택 버튼으로 넘어간 화면, 마지막은 선택 후 화면입니다.<br><br>
