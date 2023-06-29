@@ -1,4 +1,3 @@
----
 # 🐶 강아지킴
 ![Logoview](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/ef567dce-5d1a-4dd2-9b41-2ab90c23fea7)
 
