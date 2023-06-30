@@ -162,3 +162,22 @@ Answer의 경우 수의사의 경우에만 답변을 달 수 있도록 구현하
 사진을 촬영하거나 갤러리에서 선택하여 이미지를 업로드하는 화면으로 이동합니다.<br>
 첫번째 사진은 선택 전 화면, 두번째 사진은 사진촬영 버튼으로 넘어간 화면, <br>
 세번째 사진은 사진선택 버튼으로 넘어간 화면, 마지막은 선택 후 화면입니다.<br><br>
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/5dd7178f-df79-469d-843d-a8a3dba2bc2c" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/70b6505e-4fdd-4191-b4c3-f58d9a06bd1c" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/62a4884d-707a-46f6-94a0-27f852822749" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/131b7333-0f2f-499b-ac23-ab28ceeace67" width="200"/><br>
+사진을 선택한 후 사진 등록 버튼을 누르면 진단 결과를 보여주는 화면으로 이동합니다. <br>
+기다리면 첫번째 사진 처럼 AI 진단 결과를 보여주고 <br>
+진단 결과가 나온 후 더 기다리면 두번째 사진처럼 설명이 도착했다고 메시지를 보여줍니다.<br>
+이후 AI 진단 버튼을 누르면 진단 결과에 대한 GPT의 설명을 보여줍니다. <br>
+진단 결과가 나온 뒤 질문등록 버튼을 누르면 마지막 사진처럼 질문을 등록할 수있는 화면을 보여줍니다. <br><br>
+
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/5bbb2fa2-c7f5-420b-8153-aa174b7e0506" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/502c32fc-887d-42ce-87c0-f873a025fb33" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/3c31f92c-0169-4d8c-b80e-faccd80cfc6c" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/53dd2ec6-bb8d-4bfd-bc76-806227367f5d" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/f84dc5ea-4827-48d1-a185-22641ad1a609" width="200"/><br>
+질문등록을 마치면 메인화면으로 돌아오게 됩니다.<br>
+하단 네비게이션의 질문게시판을 클릭하면 게시판화면이 나타나게됩니다.<br>
+게시물을 클릭하면 게시글의 상세 질문이 보여지게 됩니다.
+게시물에는 이전에 받은 GPT의 해설을 포함해서 
