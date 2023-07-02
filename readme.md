@@ -153,7 +153,7 @@ AWS 서버 배포는 uwsgi와 Nginx를 통해 배포했습니다. Nginx를 통�
 <img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/c8152a0b-3084-4801-8250-8f0a548e938a" width="200"/>&nbsp;&nbsp;
 <img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/8ff934ee-4455-4d6a-8361-800ec69bc830" width="400"/><br>
 로그인 화면에서 비밀번호 초기화 문구를 클릭하면 이메일을 입력할 수 있는 화면이 나타나고 <br>
-초기화 이메일 보내기 버튼을 누르면 위와 같은 메일을 받을 수 있습니다.br><br>
+초기화 이메일 보내기 버튼을 누르면 위와 같은 메일을 받을 수 있습니다.<br><br>
 <img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/d4a63328-aac1-4fe7-a01b-f62b686e6ea7" width="200"/>&nbsp;&nbsp;
 <img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/05145bd6-1767-452a-b7ea-544ebd3f2dc9" width="200"/><br>
 로그인이나 회원가입이 성공하면 메인화면으로 이동합니다.<br>
