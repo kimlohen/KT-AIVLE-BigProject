@@ -6,7 +6,7 @@
 
 ## 📜 서비스 내용
 
-**반려동물의 피부질환을 AI가 진단해주고, 수의사에게 물어볼 수 있는 서비스입니다.**
+**반려견의 피부질환을 AI가 진단하고, 수의사에게 물어볼 수 있는 서비스입니다.**
 
 🌱 **반려인 시나리오**
 
@@ -54,18 +54,18 @@ DB는 **MySQL**을 사용했고, API 서버는 **NGINX**로 배포 하였습니�
 
 ### ✅ API 명세서
 
-API에 대한 내용들은 Notion에 API 명세서를 작성하여 관리하고 있습니다. [[API 명세서 링크]](https://www.notion.so/957e66a93eee468b9ad01613f041ea0a?pvs=21)
+API에 대한 내용들은 Notion에 API 명세서를 작성하여 관리했습니다. [[API 명세서 링크]](https://www.notion.so/957e66a93eee468b9ad01613f041ea0a?pvs=21)
 ![api명세서](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/c3a723da-e594-43db-ada2-b922289de0e4)
 
 ### ✅ 로그인 관련 구현
 
 Django REST Auth를 활용하여 기본적인 회원가입, 로그인, 로그아웃 등을 구현했습니다.
 
-하지만 기본으로 제공해주는 User가 아니라, 아래와 같은 Field들을 추가하여 Custom User를 구현했습니다.
+아래와 같은 Field들을 추가하여 Custom User를 구현했습니다.
 
 - Email을 로그인 시 사용 (기본은 Username)
 - 수의사 여부 Field 추가
-- 프로필 이미지 Field 추가 → Default로 pydenticon 이미지 사용
+- 프로필 이미지 Field 추가 : Default로 pydenticon 이미지 사용
 
 ✔️ **JWT Token**
 
@@ -82,7 +82,7 @@ Django REST Auth를 활용하여 기본적인 회원가입, 로그인, 로그아
 
 ### ✅ Pet, Hospital API
 
-User 별로 Pet 정보를 등록하는 API와 수의사일 경우 Hospital 정보를 등록하는 API를 구현했습니다.
+User 별로 Pet 정보를 등록하는 API와, 수의사일 경우 Hospital 정보를 등록하는 API를 구현했습니다.
 
 Pet과 Hospital 은 UserID와 외래키로 연결되어있어, 로그인한 정보를 바탕으로 데이터 생성 시 자동으로 UserID를 가져오도록 구현했습니다.
 
@@ -109,6 +109,11 @@ Question의 경우 마찬가지로 PictureID를 외래키로 가지기 때문에
 **✔ Answer**
 
 Answer의 경우 수의사의 경우에만 답변을 달 수 있도록 구현하였습니다.
+
+### ✅ AWS 서버 배포
+
+AWS 서버 배포는 uwsgi와 Nginx를 통해 배포했습니다. Nginx를 통해 배포했음에도 AI모델이 돌아가고 동시에 다른 API 요청이 들어오면 서버가 죽는 경우가 발생하여, uwsgi 서버 부하 관련 설정을 변경하여 서버가 안정적으로 돌아갈 수 있도록 했습니다.
+
 
 ### ✅ 아키텍처, ERD, Service Flow, UI/UX 흐름도 
 
