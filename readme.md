@@ -199,7 +199,7 @@ InceptionV3, Inception-resnetV2의 성능이 가장 좋은 것을 확인하였�
 전화상담 버튼을 누르면 휴대전화의 전화화면으로 이동하고 병원 번호로 다이얼을 걸어둡니다.<br><br>
 <img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/0ed35f4f-0599-4591-9213-d7f934dc7bbc" width="200"/>&nbsp;&nbsp;
 <img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/0f1a844c-edd4-4fd0-b1c8-0383a8a6989e" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/cf246ac2-ba5a-4a15-9428-83a6e36aeccc" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/3ebcb6ec-66f3-40e7-a5c8-7732f59a0f29" width="200"/>&nbsp;&nbsp;
 <img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/13eff5cf-58d2-46d0-8f83-097ec22bcea2" width="200"/><br>
 메인화면에서 피부질환 진단하기 버튼을 누르면 해당하는 동물을 선택하고 <br>
 사진을 촬영하거나 갤러리에서 선택하여 이미지를 업로드하는 화면으로 이동합니다.<br>
@@ -207,8 +207,8 @@ InceptionV3, Inception-resnetV2의 성능이 가장 좋은 것을 확인하였�
 세번째 사진은 사진선택 버튼으로 넘어간 화면, 마지막은 선택 후 화면입니다.<br><br>
 <img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/82ea7a4b-ae3a-4f04-a8a2-821145e3e218" width="200"/>&nbsp;&nbsp;
 <img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/2d02cf04-caab-4183-8905-3828a628639e" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/70b6505e-4fdd-4191-b4c3-f58d9a06bd1c" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/142249ac-2c9e-4917-917c-4262122aa882" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/8b0b021c-031b-4f8b-a4f9-90473b4b76fc" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/b0c49ca9-6812-4adc-ae57-00f014eafc00" width="200"/>&nbsp;&nbsp;
 <img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/60a67cfe-99ab-4bb6-9455-453e332daf36" width="200"/><br>
 사진을 선택한 후 사진 등록 버튼을 누르면 진단 결과를 보여주는 화면으로 이동합니다. <br>
 기다리면 첫번째 사진 처럼 AI 진단 결과를 보여주고 <br>
