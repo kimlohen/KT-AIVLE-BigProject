@@ -125,6 +125,7 @@ AWS 서버 배포는 uwsgi와 Nginx를 통해 배포했습니다. Nginx를 통�
 
 ### ✅ AI
 무증상 및 6가지의 피부질환을 포함하여 7 Class로 분류하는 Flow를 가지고 있습니다.
+|---|---|---|---|
 ![ppt4](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/124108688/4d57cb23-9fcd-436a-ba05-75f91e56f7a7)
 
 ✔️ **데이터**  
@@ -140,11 +141,15 @@ AWS 서버 배포는 uwsgi와 Nginx를 통해 배포했습니다. Nginx를 통�
 
 **✔ 모델 선정과정**
 - Unet
+|---|---|---|---|
 ![ppt3](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/124108688/574b171e-7956-440f-bfae-9a5c73a618a2)
+|---|---|---|---|
 마스킹 이미지가 작은 경우 환부로 인식하기 어려운 문제가 있었습니다.
 
 - YOLOv5
+|---|---|---|---|
 ![ppt7](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/124108688/10d68a2b-7670-4d6b-b229-661c915dbe29)
+|---|---|---|---|
 마찬가지로 바운딩 박스가 작은 경우 객체 인식 자체를 잘 못하는 문제가 있었습니다.
 데이터 특성상 세그멘테이션 모델보다는 환부 주변 부위까지 함께 고려하는 분류 모델이 적합​하다고 판단했습니다.
 
@@ -160,10 +165,8 @@ InceptionV3, Inception-resnetV2의 성능이 가장 좋은 것을 확인하였�
 
 - 최적화
 313layer모델에서 layer를 줄여가면 성능변화를 확인하였습니다.
-그 결과 256layer까지는 밑단을 삭제하여도 유사한 성능을 내는 것을 확인하였습니다.
-layer: 313layer --> 256layer​
-Parameter: 약2219만 --> 약1278만​
-Parameter기준 약 42% 경량화 완료
+256layer까지는 밑단을 삭제하여도 유사한 성능을 내는 것을 확인하였습니다.
+그 결과 Parameter기준 약 42% 경량화했습니다.
 
 ## 👀 서비스 화면  
 
