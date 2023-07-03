@@ -125,7 +125,7 @@ AWS 서버 배포는 uwsgi와 Nginx를 통해 배포했습니다. Nginx를 통�
 
 ### ✅ AI
 무증상 및 6가지의 피부질환을 포함하여 7 Class로 분류하는 Flow를 가지고 있습니다.
-|---|---|---|---|
+
 ![ppt4](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/124108688/4d57cb23-9fcd-436a-ba05-75f91e56f7a7)
 
 ✔️ **데이터**  
@@ -137,36 +137,43 @@ AWS 서버 배포는 uwsgi와 Nginx를 통해 배포했습니다. Nginx를 통�
 
 
 ✔️ **모델**  
-모델은 pretrained InceptionV3를 사용했습니다.
+모델은 pretrained InceptionV3를 사용했습니다.<br>
+
 
 **✔ 모델 선정과정**
 - Unet
-|---|---|---|---|
+
 ![ppt3](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/124108688/574b171e-7956-440f-bfae-9a5c73a618a2)
-|---|---|---|---|
-마스킹 이미지가 작은 경우 환부로 인식하기 어려운 문제가 있었습니다.
+
+마스킹 이미지가 작은 경우 환부로 인식하기 어려운 문제가 있었습니다.<br>
+
 
 - YOLOv5
-|---|---|---|---|
+
 ![ppt7](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/124108688/10d68a2b-7670-4d6b-b229-661c915dbe29)
-|---|---|---|---|
-마찬가지로 바운딩 박스가 작은 경우 객체 인식 자체를 잘 못하는 문제가 있었습니다.
+
+마찬가지로 바운딩 박스가 작은 경우 객체 인식 자체를 잘 못하는 문제가 있었습니다.<br>
 데이터 특성상 세그멘테이션 모델보다는 환부 주변 부위까지 함께 고려하는 분류 모델이 적합​하다고 판단했습니다.
 
 - 사전학습 분류모델 검토
-VGG16, MobileNetV3, EfficientNet-B0, Resnet-50, InceptionV3, Inception-resnetV2모델을 검토하였습니다.
-InceptionV3, Inception-resnetV2의 성능이 가장 좋은 것을 확인하였습니다.
-모바일 환경을 고려하여 좀 더 가벼운 모델인 InceptionV3로 최종 결정하였습니다.
+
+VGG16, MobileNetV3, EfficientNet-B0, Resnet-50, InceptionV3, Inception-resnetV2모델을 검토하였습니다.<br>
+InceptionV3, Inception-resnetV2의 성능이 가장 좋은 것을 확인하였습니다.<br>
+모바일 환경을 고려하여 좀 더 가벼운 모델인 InceptionV3로 최종 결정하였습니다.<br>
+
 
 **✔ 고도화 및 최적화**
+
 - 고도화
-데이터셋 정제과정을 거치다보니 줄어든 데이터를 보강하기위해 Data augmentation기법을 활용하였습니다.
-모델 학습속도를 높이고 과적합를 방지하기 위해 213layer까지 동결하되 Batchnormalization layer는 동결하지 않았습니다.
+
+데이터셋 정제과정을 거치다보니 줄어든 데이터를 보강하기위해 Data augmentation기법을 활용하였습니다.<br>
+모델 학습속도를 높이고 과적합를 방지하기 위해 213layer까지 동결하되 Batchnormalization layer는 동결하지 않았습니다.<br>
 
 - 최적화
-313layer모델에서 layer를 줄여가면 성능변화를 확인하였습니다.
-256layer까지는 밑단을 삭제하여도 유사한 성능을 내는 것을 확인하였습니다.
-그 결과 Parameter기준 약 42% 경량화했습니다.
+
+기존의 313layer중 layer갯수를 줄여가면서 성능변화를 확인하였습니다.<br>
+256layer까지는 밑단을 삭제하여도 유사한 성능을 내는 것을 확인하였습니다.<br>
+이를 채택한 결과 Parameter기준 약 42% 경량화했습니다.
 
 ## 👀 서비스 화면  
 
