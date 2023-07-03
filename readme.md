@@ -193,6 +193,7 @@ InceptionV3, Inception-resnetV2의 성능이 가장 좋은 것을 확인하였�
 로그인 화면에서 비밀번호 초기화 문구를 클릭하면 이메일을 입력할 수 있는 화면이 나타나고 <br>
 초기화 이메일 보내기 버튼을 누르면 위와 같은 메일을 받을 수 있습니다.<br><br>
 <img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/d4a63328-aac1-4fe7-a01b-f62b686e6ea7" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/17ad2d9c-d3ab-405c-97f9-e5228b4f350e" width="200"/>&nbsp;&nbsp;
 <img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/05145bd6-1767-452a-b7ea-544ebd3f2dc9" width="200"/><br>
 로그인이나 회원가입이 성공하면 메인화면으로 이동합니다.<br>
 답변을 많이 한 병원들 중 하나가 하단에 노출됩니다.<br>
