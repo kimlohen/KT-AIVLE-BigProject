@@ -144,9 +144,11 @@ AWS 서버 배포는 uwsgi와 Nginx를 통해 배포했습니다. Nginx를 통�
 **✔ 모델 선정과정**
 - Unet
 
-![ppt3](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/124108688/574b171e-7956-440f-bfae-9a5c73a618a2)
+![ppt3](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/124108688/bdca5b23-8c5f-4a9c-9c15-505effc30062)
+
 
 마스킹 이미지가 작은 경우 환부로 인식하기 어려운 문제가 있었습니다.<br>
+
 
 
 - YOLOv5
@@ -155,6 +157,7 @@ AWS 서버 배포는 uwsgi와 Nginx를 통해 배포했습니다. Nginx를 통�
 
 마찬가지로 바운딩 박스가 작은 경우 객체 인식 자체를 잘 못하는 문제가 있었습니다.<br>
 데이터 특성상 세그멘테이션 모델보다는 환부 주변 부위까지 함께 고려하는 분류 모델이 적합​하다고 판단했습니다.
+
 
 - 사전학습 분류모델 검토
 
