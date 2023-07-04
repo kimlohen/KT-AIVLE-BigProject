@@ -158,6 +158,8 @@ AWS 서버 배포는 uwsgi와 Nginx를 통해 배포했습니다. Nginx를 통�
 - 사전학습 분류모델 검토
 
 VGG16, MobileNetV3, EfficientNet-B0, Resnet-50, InceptionV3, Inception-resnetV2모델을 검토하였습니다.<br>
+![ppt8](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/124108688/32346055-04b9-4afb-a377-f5b620610f2a)
+
 InceptionV3, Inception-resnetV2의 성능이 가장 좋은 것을 확인하였습니다.<br>
 모바일 환경을 고려하여 좀 더 가벼운 모델인 InceptionV3로 최종 결정하였습니다.<br>
 
@@ -173,7 +175,15 @@ InceptionV3, Inception-resnetV2의 성능이 가장 좋은 것을 확인하였�
 
 기존의 313layer중 layer갯수를 줄여가면서 성능변화를 확인하였습니다.<br>
 256layer까지는 밑단을 삭제하여도 유사한 성능을 내는 것을 확인하였습니다.<br>
-이를 채택한 결과 Parameter기준 약 42% 경량화했습니다.
+이를 채택한 결과 기존의 Parameter기준 약 42% 경량화했습니다.(2219만-->1278만)<br>
+
+![ppt11](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/124108688/c7d81b7b-db1d-476b-be63-fbc7fa564a0a)
+
+![ppt12](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/124108688/9d5f36f7-cab1-49b1-bbef-fda07efbef42)
+
+
+
+
 
 ## 👀 서비스 화면  
 
