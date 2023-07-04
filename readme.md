@@ -126,7 +126,8 @@ AWS 서버 배포는 uwsgi와 Nginx를 통해 배포했습니다. Nginx를 통�
 ### ✅ AI
 무증상 및 6가지의 피부질환을 포함하여 7 Class로 분류하는 Flow를 가지고 있습니다.
 
-![ppt4](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/124108688/4d57cb23-9fcd-436a-ba05-75f91e56f7a7)
+![ppt4](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/124108688/50c97e0d-654f-4874-816f-b8a67f0dee26)
+
 
 ✔️ **데이터**  
 [AI HUB 반려동물 피부 질환 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=561)를 사용했습니다.  
