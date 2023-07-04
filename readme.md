@@ -146,6 +146,8 @@ AWS 서버 배포는 uwsgi와 Nginx를 통해 배포했습니다. Nginx를 통�
 
 
 마스킹 이미지가 작은 경우 환부로 인식하기 어려운 문제가 있었습니다.<br>
+unet에서는 픽셀 주위의 local region(패치)를 입력으로 각 픽셀의 label을 예측하는데, 패치가 작아 환부에 대한 localization 성능은 향상되었으나(98.81%의 accuracy), 네트워크는 매우 작은 context만 보게 되어 context 파악 성능이 매우 떨어지는 것을 확인할 수 있었습니다. <br>
+(Unet의 경우 localization accuracy와 context(sementaic information) 사이는 trade off 관계)
 
 
 
