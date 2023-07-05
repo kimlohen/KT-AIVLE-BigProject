@@ -14,24 +14,15 @@ from pathlib import Path
 import os
 from os.path import abspath, dirname, join
 from datetime import timedelta
+import sys
 
 from settings_params import *
-# setting_params에 정보를 올려놨더니, 해당 내용은 commit이 안됨
-from secret import *
 
-from datetime import timedelta
-
-import sys
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 
 # BASE_DIR: 프로젝트의 최상위 경로를 뜻함
 # BASE_DIR = Path(__file__).resolve().parent.parent (기존의 BASE_DIR)
 BASE_DIR = dirname(dirname(dirname(abspath(__file__))))
-
-
-for key, value in SOCIAL_INFO.items():
-    setattr(sys.modules[__name__], key, value)
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
@@ -70,11 +61,6 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'requests', # pip install requests
     
-    # include the providers
-    'allauth.socialaccount.providers.naver',
-    'allauth.socialaccount.providers.kakao',
-    'allauth.socialaccount.providers.google',
-
     # S3 Storage
     'storages',
     
@@ -226,11 +212,6 @@ REST_FRAMEWORK = {
         'dj_rest_auth.jwt_auth.JWTCookieAuthentication',
      ]
 }
-
-
-# cookie key 와 refresh cookie key 의 이름을 설정
-JWT_AUTH_COOKIE = 'sociallogin-auth'
-JWT_AUTH_REFRESH_COOKIE = 'sociallogin-refresh-token'
 
 # JWT 사용을 위한 설정
 REST_USE_JWT = True
