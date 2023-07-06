@@ -192,19 +192,19 @@ InceptionV3, Inception-resnetV2의 성능이 가장 좋은 것을 확인하였�
 
 ## 👀 서비스 화면  
 
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/b065ebd2-5f48-4b87-bc32-b52d2c469f3d" width="200"/><br>
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/4b99a6be-bd6e-4aab-8190-e6d3ca9404c4" width="200"/><br>
 어플리케이션을 설치하면 위와 같은 아이콘이 나타납니다.<br><br>
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/6b8c76c4-b882-4aff-ab23-fadc0b01d678" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/d2782121-b244-489b-8c5a-576bd254532f" width="200"/><br>
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/453031bb-dfc6-40e4-bbfc-7a384078aa4a" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/3823bb12-4e47-4cc7-be66-c7b934c31d60" width="200"/><br>
 아이콘을 눌러 실행하면 로딩화면을 거치고 로그인 화면으로 이동합니다.<br><br>
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/ca0a70d7-a1ff-4114-a812-4fc94387eff2" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/5037d8e8-a94a-4f30-a9a9-1ad062f914be" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/d10d07f8-3e55-4919-b7d5-74c1a991e7e5" width="200"/><br>
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/6831d554-d51a-408c-b547-580ba1814a9e" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/f68bbec1-ca2a-4ad0-9c78-f1c211e31c3d" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/cb6b7305-88ff-44b7-b899-0cdc5cbc0156" width="200"/><br>
 로그인 화면에서 회원가입 버튼을 누르면 위와 같은 화면으로 이동합니다. <br>
 수의사 버튼을 누르면 병원 정보를 입력할 수 있는 화면이 나타나고, <br>
 약관 확인하기 문구를 클릭하면 약관을 확인 할 수 있는 화면으로 이동니다.<br><br>
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/c8152a0b-3084-4801-8250-8f0a548e938a" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/8ff934ee-4455-4d6a-8361-800ec69bc830" width="400"/><br>
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/c2b0865f-a1df-4cfd-a43f-cd71d4dc6ff0" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/c827ef3c-9d2b-4237-8ada-5f2629fcc256" width="200"/><br>
 로그인 화면에서 비밀번호 초기화 문구를 클릭하면 이메일을 입력할 수 있는 화면이 나타나고 <br>
 초기화 이메일 보내기 버튼을 누르면 위와 같은 메일을 받을 수 있습니다.<br><br>
 <img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/d4a63328-aac1-4fe7-a01b-f62b686e6ea7" width="200"/>&nbsp;&nbsp;
