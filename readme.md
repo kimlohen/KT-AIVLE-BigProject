@@ -53,7 +53,7 @@ DB는 **MySQL**을 사용했고, API 서버는 **NGINX**로 배포 하였습니�
 ### ✅ API 명세서
 
 API에 대한 내용들은 Notion에 API 명세서를 작성하여 관리했습니다. [[API 명세서 링크]](https://www.notion.so/957e66a93eee468b9ad01613f041ea0a?pvs=21)
-![api명세서](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/c3a723da-e594-43db-ada2-b922289de0e4)
+![api 명세서 캡처 다크모드](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/7b2391ad-112e-486f-9b08-aa2d63bf23e1)
 
 ### ✅ 로그인 관련 구현
 
@@ -119,7 +119,8 @@ AWS 서버 배포는 uwsgi와 Nginx를 통해 배포했습니다. Nginx를 통�
 
 |아키텍처|ERD|Service Flow|UI/UX 흐름도|
 |---|---|---|---|
-|![architecture](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/44f10a37-b3cb-4b75-b071-91c8d7165565)|![erd](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/3daa9449-c11f-4549-a373-a68f94f4935f)|![서비스 플로우](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/4c5aac06-ddcb-4ef2-bc6b-1dc822403556)|![UI/UX](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/62fc0f89-6c0c-4285-867f-97055b0bc3c4)|
+|![architecture](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/44f10a37-b3cb-4b75-b071-91c8d7165565)|![erd](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/b04ee526-a2e9-48a4-86de-5c6ad67e061d)|![서비스 플로우](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/4c5aac06-ddcb-4ef2-bc6b-1dc822403556)|![UI/UX](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/62fc0f89-6c0c-4285-867f-97055b0bc3c4)|
+
 
 ### ✅ AI
 무증상 및 6가지의 피부 질환을 포함하여 7 Class로 분류하는 Flow를 가지고 있습니다.
