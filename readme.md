@@ -1,5 +1,5 @@
 # 🐶 강아지킴
-![Logoview](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/ef567dce-5d1a-4dd2-9b41-2ab90c23fea7)
+![Logoview](https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/ac7ec5c7-a963-4243-8b05-2ba52503460c)
 
 ## 😊 Members
 #### 곽채원, 김민수, 박예은, 류홍규, 박지환, 이윤열, 이태훈
@@ -47,13 +47,13 @@
 **Backend 서버**의 경우 **AWS EC2**를 사용하고, DB와 Storage를 **RDS**와 **S3**로 분리해서 구현했습니다.  
 DB는 **MySQL**을 사용했고, API 서버는 **NGINX**로 배포 하였습니다.
 
-![전체 아키텍처](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/13626f8b-9a5f-4337-9477-b857a13bda9c)
+![전체 아키텍처](https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/871f6ab7-3397-4f06-96e8-3e7793ebf182)
 
 
 ### ✅ API 명세서
 
 API에 대한 내용들은 Notion에 API 명세서를 작성하여 관리했습니다. [[API 명세서 링크]](https://www.notion.so/957e66a93eee468b9ad01613f041ea0a?pvs=21)
-![api 명세서 캡처 다크모드](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/7b2391ad-112e-486f-9b08-aa2d63bf23e1)
+![api 명세서 캡처 다크모드](https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/8b554140-00bb-47df-94d7-d2af1277387a)
 
 ### ✅ 로그인 관련 구현
 
@@ -75,7 +75,7 @@ Django REST Auth를 활용하여 기본적인 회원가입, 로그인, 로그아
 
 |비밀번호 초기화 메일|비밀번호 초기화 화면|
 |---|---|
-|![image](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/ea45c4c8-2a2a-4c51-bb27-4bf21f1f8c64)|![image](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/2899f85b-1dea-4f25-b664-033b187f4f4f)|
+|![image](https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/01ecec06-b542-4eeb-a974-e6e211941acd)|![image](https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/ce516c45-c6b0-48db-a308-cf1b8cdf36e8)|
 
 
 ### ✅ Pet, Hospital API
@@ -119,17 +119,17 @@ AWS 서버 배포는 uwsgi와 Nginx를 통해 배포했습니다. Nginx를 통�
 
 |아키텍처|ERD|Service Flow|UI/UX 흐름도|
 |---|---|---|---|
-|![architecture](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/44f10a37-b3cb-4b75-b071-91c8d7165565)|![erd](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/b04ee526-a2e9-48a4-86de-5c6ad67e061d)|![서비스 플로우](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/4c5aac06-ddcb-4ef2-bc6b-1dc822403556)|![UI/UX](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/30362867/62fc0f89-6c0c-4285-867f-97055b0bc3c4)|
+|![architecture](https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/7391065a-15cb-4917-86bd-3e84fd1a1ec0)|![erd](https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/f98a415c-ee04-484a-b545-cf44b77ba45d)|![서비스 플로우](https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/f75e62ca-360a-4003-a584-7bc552c44aed)|![UI/UX](https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/14933e99-fec3-443a-bb64-9a54befb5922)|
 
 
 ### ✅ AI
 무증상 및 6가지의 피부 질환을 포함하여 7 Class로 분류하는 Flow를 가지고 있습니다.
 
-![ppt4](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/124108688/50c97e0d-654f-4874-816f-b8a67f0dee26)
+![ppt4](https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/eada6b5e-a2f7-459a-8a87-6b32492a7ef3)
 
 
 ✔️ **데이터**  
-[AI HUB 반려동물 피부 질환 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=561)를 사용했습니다.  
+[AI HUB 반려동물 피부 질환 데이터](https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/8b80e051-16c9-4aaf-b694-882d7527d66e)를 사용했습니다.  
 ~~AI HUB 데이터에서 무증상 데이터를 제공하지 않고 있어 **DALLE API**를 사용해 ***무증상 데이터를 생성***하여 학습을 진행했습니다.~~  
 - 뒤늦게 반려동물 무증상 데이터가 AI HUB에 업데이트되었고 이를 6월 23일에 확인하여 이후 해당 데이터로 학습을 진행하였습니다.
 - 모델의 성능이 좋지 않아 데이터를 확인해본 결과, 중복되는 데이터가 여러 클래스에 들어가있고 개수를 채우기 위해 같은 이미지가 반복되는 등의 문제를 확인했습니다.
@@ -143,8 +143,7 @@ AWS 서버 배포는 uwsgi와 Nginx를 통해 배포했습니다. Nginx를 통�
 **✔ 모델 선정과정**
 - Unet
 
-![ppt3](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/124108688/bdca5b23-8c5f-4a9c-9c15-505effc30062)
-
+![ppt3](https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/ab9ef9ad-77f2-4487-a781-46a1e69a2cdf)
 
 마스킹 이미지가 작은 경우 환부로 인식하기 어려운 문제가 있었습니다.<br>
 unet에서는 픽셀 주위의 local region(패치)를 입력으로 각 픽셀의 label을 예측하는데, 패치가 작아 환부에 대한 localization 성능은 향상되었으나(98.81%의 accuracy), 네트워크는 매우 작은 context만 보게 되어 context 파악 성능이 매우 떨어지는 것을 확인할 수 있었습니다. <br>
@@ -154,16 +153,17 @@ unet에서는 픽셀 주위의 local region(패치)를 입력으로 각 픽셀�
 
 - YOLOv5
 
-![ppt7](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/124108688/10d68a2b-7670-4d6b-b229-661c915dbe29)
+![ppt7](https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/9ca79b7f-dd24-4f66-a3d8-4cbf203f81bc)
 
 마찬가지로 바운딩 박스가 작은 경우 객체 인식 자체를 잘 못하는 문제가 있었습니다.<br>
+
 데이터 특성상 세그멘테이션 모델보다는 환부 주변 부위까지 함께 고려하는 분류 모델이 적합​하다고 판단했습니다.
 
 
 - 사전학습 분류모델 검토
 
 VGG16, MobileNetV3, EfficientNet-B0, Resnet-50, InceptionV3, Inception-resnetV2모델을 검토하였습니다.<br>
-![ppt8](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/124108688/32346055-04b9-4afb-a377-f5b620610f2a)
+![ppt8](https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/4e0e74cc-72dc-48c2-9f8c-1b734009de02)
 
 InceptionV3, Inception-resnetV2의 성능이 가장 좋은 것을 확인하였습니다.<br>
 모바일 환경을 고려하여 좀 더 가벼운 모델인 InceptionV3로 최종 결정하였습니다.<br>
@@ -182,73 +182,69 @@ InceptionV3, Inception-resnetV2의 성능이 가장 좋은 것을 확인하였�
 256layer까지는 밑단을 삭제하여도 유사한 성능을 내는 것을 확인하였습니다.<br>
 이를 채택한 결과 기존의 Parameter기준 약 42% 경량화했습니다.(2219만-->1278만)<br>
 
-![ppt11](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/124108688/c7d81b7b-db1d-476b-be63-fbc7fa564a0a)
-
-![ppt12](https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/124108688/9d5f36f7-cab1-49b1-bbef-fda07efbef42)
-
+![ppt11](https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/8504cbe8-85ab-4a5c-85ff-96fc89417165)
+![ppt12](https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/faac0cbd-9332-49c1-9ffa-edfb60aabab9)
 
 
 
 
 ## 👀 서비스 화면  
 
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/4b99a6be-bd6e-4aab-8190-e6d3ca9404c4" width="200"/><br>
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/eb23e202-6390-4c5e-9b46-b98196cc2fec" width="200"/><br>
 어플리케이션을 설치하면 위와 같은 아이콘이 나타납니다.<br><br>
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/453031bb-dfc6-40e4-bbfc-7a384078aa4a" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/3823bb12-4e47-4cc7-be66-c7b934c31d60" width="200"/><br>
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/a20427cf-1d7d-403a-b4b3-6301e48f509d" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/6bbd016b-abd6-40fc-aa15-39ebddda54e4" width="200"/><br>
 아이콘을 눌러 실행하면 로딩화면을 거치고 로그인 화면으로 이동합니다.<br><br>
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/6831d554-d51a-408c-b547-580ba1814a9e" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/f68bbec1-ca2a-4ad0-9c78-f1c211e31c3d" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/cb6b7305-88ff-44b7-b899-0cdc5cbc0156" width="200"/><br>
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/f8c8673f-1cd9-4985-8978-17434f5ef315" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/4bf07b3b-35e0-4563-9a66-d0f4d1fde921" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/6b3f0570-dd45-499d-850d-fd2facc49da9" width="200"/><br>
 로그인 화면에서 회원가입 버튼을 누르면 위와 같은 화면으로 이동합니다. <br>
 수의사 버튼을 누르면 병원 정보를 입력할 수 있는 화면이 나타나고, <br>
 약관 확인하기 문구를 클릭하면 약관을 확인 할 수 있는 화면으로 이동니다.<br><br>
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/c2b0865f-a1df-4cfd-a43f-cd71d4dc6ff0" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/c827ef3c-9d2b-4237-8ada-5f2629fcc256" width="200"/><br>
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/0d16fd61-df89-4d59-a554-c3b49b95fa9a" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/b9c17bc6-ad0f-4a83-9787-eaa1124fe496" width="200"/><br>
 로그인 화면에서 비밀번호 초기화 문구를 클릭하면 이메일을 입력할 수 있는 화면이 나타나고 <br>
 초기화 이메일 보내기 버튼을 누르면 위와 같은 메일을 받을 수 있습니다.<br><br>
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/e004ce20-450d-4ba0-b02a-9f17fa9225f3" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/8be44c4d-68e8-4ef6-88c5-8be4fde07b02" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/72ff5aee-0ddb-4725-b214-e89d2b0267d9" width="200"/><br>
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/217b3db1-8b77-400d-a76a-9d911ff5f4a6" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/b73103ab-e5d6-41b5-b366-af8e954e44b3" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/d7d0d6fd-bb61-4d2e-aecb-2f922306470f" width="200"/><br>
 로그인이나 회원가입이 성공하면 메인화면으로 이동합니다.<br>
 답변을 많이 한 병원들 중 하나가 하단에 노출됩니다.<br>
 설문조사 버튼을 누르면 구글폼으로 이동합니다.<br>
 전화상담 버튼을 누르면 휴대전화의 전화화면으로 이동하고 병원 번호로 다이얼을 걸어둡니다.<br><br>
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/456ecb12-efa8-443e-b28e-6ec6f56494cd" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/01d5c984-8e11-467d-9e98-ffb9a0f3095b" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/48c2b3cd-8f2c-4fdc-b6e1-ee0979f2198c" width="200"/><br>
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/48d36fd3-29e5-4b23-9cca-a0b92b5aadf9" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/d36b8457-025c-4e91-ac7e-3b97bd296145" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/27658fbe-6caa-45a5-a6e8-c4cea42806df" width="200"/><br>
 메인화면에서 피부 질환 진단하기 버튼을 누르면 해당하는 동물을 선택하고 <br>
 사진을 촬영하거나 갤러리에서 선택하여 이미지를 업로드하는 화면으로 이동합니다.<br>
 첫번째 사진은 선택 전 화면, 두번째 사진은 사진촬영 버튼으로 넘어간 화면, <br>
 세번째 사진은 사진선택 버튼으로 넘어간 화면, 마지막은 선택 후 화면입니다.<br><br>
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/914a38d9-9988-425b-8b5b-f8488c078c36" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/77db1b3d-5f7c-4964-9262-0d9d0d958894" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/de1d4abe-57b2-4bc8-b883-0ba515a472ff" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/86b4fae0-4844-40a4-9e28-a6b4ed5b9e48" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/899930f3-c76e-4dbe-b37b-56e48c1c67dc" width="200"/><br>
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/941041f2-3807-4f61-9b7d-3f88ddc4e2b7" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/680b2632-52cf-400b-820a-c0bee11f041c" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/e2bb4bff-d37c-4b0d-bdf0-250271cc3092" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/eea2b615-5657-4507-8028-5c9605e46576" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/e82c977d-ad0c-4033-af0f-ecd81dab7f3e" width="200"/><br>
 사진을 선택한 후 사진 등록 버튼을 누르면 진단 결과를 보여주는 화면으로 이동합니다. <br>
 기다리면 첫번째 사진 처럼 AI 진단 결과를 보여주고 <br>
 진단 결과가 나온 후 더 기다리면 두번째 사진처럼 설명이 도착했다고 메시지를 보여줍니다.<br>
 이후 AI 진단 버튼을 누르면 진단 결과에 대한 GPT의 설명을 보여줍니다. <br>
 진단 결과가 나온 뒤 질문등록 버튼을 누르면 마지막 사진처럼 질문을 등록할 수있는 화면을 보여줍니다. <br><br>
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/f22d2252-0d53-42e1-9bef-7cc96609905f" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/8183778f-0e24-4c42-8e94-d3f3c7165719" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/2c7b2f79-35d2-44f4-98cc-8206dbd01add" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/ca14a236-b88c-48b2-a950-220d69b08c6f" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/f0920683-b443-4a8d-9cf1-9ce93a1e26a1" width="200"/>&nbsp;&nbsp;<br>
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/2ecf2394-a037-4810-8d4d-7a2a8c287aed" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/42a4fedb-e3ba-4e89-976d-06f7c3c63dcc" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/e659c1f3-9b0e-4cfa-99f3-d47df47c5d97" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/56e25c61-d63e-45f2-ae07-2334e304f027" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/043a7ca0-3698-418c-9f85-efaf257de116" width="200"/>&nbsp;&nbsp;<br>
 질문등록을 마치면 메인화면으로 돌아오게 됩니다.<br>
 하단 네비게이션의 질문게시판을 클릭하면 게시판화면이 나타나게됩니다.<br>
 게시물을 클릭하면 찍은 사진, AI진단결과, GPT의 설명, 질문이 보여지게됩니다.<br>
 답변 또한 하단에 달리게 되는데 우선 GPT가 진단결과와 질문을 기반으로 답변을 해주고 <br>
 추가적으로 수의사 분들이 답변을 해주실 수 있습니다.<br>
 또한 마지막 사진 처럼 게시글을 검색 할 수 있습니다.<br><br>
-
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/5779bca9-2236-43ff-b11d-2f87782a2374" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/d7f5bb1b-8f5a-4702-9910-e4778021ff9c" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/5aefb230-0f73-4436-ab83-ba962bd0b7bf" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/230b3500-9d88-4276-aaaf-e4011de83940" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/6f9ce39d-7506-41b9-9be6-4c8a9afcb963" width="200"/>&nbsp;&nbsp;<br>
-
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/c08c4257-9ec9-4f16-b832-a1c8b430e5fc" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/8f53e43a-408a-4819-b959-035d0042796e" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/b753fed7-bebc-48ba-8267-9a50a0f9dfb1" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/6fd830b6-a4a9-4cb9-8853-b152bf0d8e23" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/34a75e8f-27c2-4f54-a508-ff7e4c7d7ef4" width="200"/>&nbsp;&nbsp;<br>
 메인화면이나 Q&A게시판에서 하단 네비게이션의 내 정보 버튼을 누르면 첫번째 사진과 같은 화면으로 이동합니다.<br>
 해당 화면에서 프로필 사진 변경 버튼을 누르면 유저 프로필 사진을 바꿀 수 있고<br>
 플러스 모양을 눌러 내 반려동물 추가화면으로 이동하여 반려동물을 추가 할 수 있습니다.<br>
@@ -256,6 +252,6 @@ InceptionV3, Inception-resnetV2의 성능이 가장 좋은 것을 확인하였�
 이 때 병원 정보는 일반회원이면 보이지 않습니다.<br>
 삭제 버튼, 로그아웃 문구, 회원탈퇴 문구의 경우 누르면 확인화면으로 재확인 후 기능을 수행합니다.<br><br>
 
-<img src="https://github.com/AIVLE-School-Third-Big-Project/Team11-Project/assets/76936390/833bf7b7-de8a-428b-8df2-25f3e203a0db" width="200"/><br>
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/62ef3c91-7847-460d-8b82-e10e66933405" width="200"/><br>
 내 정보 화면에서 게시글 작성 내역 문구를 누르거나 메인화면에서 나의 질문 버튼을 누르면<br>
 내가 작성한 질문글 목록을 볼 수 있고 클릭하면 QnA게시글 화면으로 이동하여 해당하는 게시글을 보여주게 됩니다.
