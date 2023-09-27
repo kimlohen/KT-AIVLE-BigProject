@@ -229,29 +229,28 @@ InceptionV3, Inception-resnetV2의 성능이 가장 좋은 것을 확인하였�
 진단 결과가 나온 후 더 기다리면 두번째 사진처럼 설명이 도착했다고 메시지를 보여줍니다.<br>
 이후 AI 진단 버튼을 누르면 진단 결과에 대한 GPT의 설명을 보여줍니다. <br>
 진단 결과가 나온 뒤 질문등록 버튼을 누르면 마지막 사진처럼 질문을 등록할 수있는 화면을 보여줍니다. <br><br>
-<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/2ecf2394-a037-4810-8d4d-7a2a8c287aed" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/42a4fedb-e3ba-4e89-976d-06f7c3c63dcc" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/e659c1f3-9b0e-4cfa-99f3-d47df47c5d97" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/56e25c61-d63e-45f2-ae07-2334e304f027" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/043a7ca0-3698-418c-9f85-efaf257de116" width="200"/>&nbsp;&nbsp;<br>
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/25eb7f6f-2d22-4992-b753-38cfb0d34339" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/bfeca3b0-ffd1-4c66-8673-54d6f90d29c2" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/312ad628-8ea1-4d42-9a7f-05a10347bec0" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/610bd771-2f68-4682-88ec-d49031ffb6b9" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/fa16f995-9b59-4d33-9d9b-95b2eedc1797" width="200"/>&nbsp;&nbsp;<br>
 질문등록을 마치면 메인화면으로 돌아오게 됩니다.<br>
 하단 네비게이션의 질문게시판을 클릭하면 게시판화면이 나타나게됩니다.<br>
 게시물을 클릭하면 찍은 사진, AI진단결과, GPT의 설명, 질문이 보여지게됩니다.<br>
 답변 또한 하단에 달리게 되는데 우선 GPT가 진단결과와 질문을 기반으로 답변을 해주고 <br>
 추가적으로 수의사 분들이 답변을 해주실 수 있습니다.<br>
 또한 마지막 사진 처럼 게시글을 검색 할 수 있습니다.<br><br>
-<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/c08c4257-9ec9-4f16-b832-a1c8b430e5fc" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/8f53e43a-408a-4819-b959-035d0042796e" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/b753fed7-bebc-48ba-8267-9a50a0f9dfb1" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/6fd830b6-a4a9-4cb9-8853-b152bf0d8e23" width="200"/>&nbsp;&nbsp;
-<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/34a75e8f-27c2-4f54-a508-ff7e4c7d7ef4" width="200"/>&nbsp;&nbsp;<br>
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/77a4f82d-d3ce-486f-bf5b-663156f827c2" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/5f9d0078-6b2e-4b74-b3b1-747048b58707" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/695dfe0c-1be8-4411-9350-56b2c7a23ce5" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/47f3d863-2022-4a68-b860-72e44171f701" width="200"/>&nbsp;&nbsp;
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/e87a257f-f40b-40b3-bd83-38ff81a0e080" width="200"/>&nbsp;&nbsp;<br>
 메인화면이나 Q&A게시판에서 하단 네비게이션의 내 정보 버튼을 누르면 첫번째 사진과 같은 화면으로 이동합니다.<br>
 해당 화면에서 프로필 사진 변경 버튼을 누르면 유저 프로필 사진을 바꿀 수 있고<br>
 플러스 모양을 눌러 내 반려동물 추가화면으로 이동하여 반려동물을 추가 할 수 있습니다.<br>
 세번째와 다섯번째 사진처럼 수정버튼을 눌러 반려동물, 병원정보 수정화면으로 이동 할 수 있습니다.<br>
 이 때 병원 정보는 일반회원이면 보이지 않습니다.<br>
 삭제 버튼, 로그아웃 문구, 회원탈퇴 문구의 경우 누르면 확인화면으로 재확인 후 기능을 수행합니다.<br><br>
-
-<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/62ef3c91-7847-460d-8b82-e10e66933405" width="200"/><br>
+<img src="https://github.com/kimlohen/KT-AIVLE-BigProject/assets/30362867/3f004db2-1a70-4a49-8118-b0625f8d4cbc" width="200"/><br>
 내 정보 화면에서 게시글 작성 내역 문구를 누르거나 메인화면에서 나의 질문 버튼을 누르면<br>
 내가 작성한 질문글 목록을 볼 수 있고 클릭하면 QnA게시글 화면으로 이동하여 해당하는 게시글을 보여주게 됩니다.
